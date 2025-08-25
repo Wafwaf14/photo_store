@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "31332187676",
+    "project_id": "photostore-b5eca",
+    "storage_bucket": "photostore-b5eca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31332187676:android:b8f90bc4cac4f9426729d9",
+        "android_client_info": {
+          "package_name": "com.example.photo_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqwKpg2eUhZoln9UhE8sVjCuAxdp1xhRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
