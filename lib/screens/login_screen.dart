@@ -69,7 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [Colors.blue.shade300, Colors.purple.shade300],
+            colors: [Colors.blue.shade300, const Color.fromARGB(255, 180, 188, 71)],
           ),
         ),
         child: SafeArea(
@@ -118,7 +118,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Icon(
                           Icons.photo_library,
                           size: 80,
-                          color: Colors.purple.shade400,
+                          color: const Color.fromARGB(255, 180, 188, 71),
                         ),
                         SizedBox(height: 16),
                         Text(
@@ -187,7 +187,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
                               ),
-                              backgroundColor: Colors.purple.shade400,
+                              backgroundColor: const Color.fromARGB(255, 180, 188, 71),
                             ),
                             child: _isLoading
                                 ? CircularProgressIndicator(color: Colors.white)
@@ -216,7 +216,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             _isLogin
                                 ? loc.translate('no_account')
                                 : loc.translate('have_account'),
-                            style: TextStyle(color: Colors.purple.shade400),
+                            style: TextStyle(color: const Color.fromARGB(255, 180, 188, 71)),
                           ),
                         ),
                       ],

@@ -37,7 +37,8 @@ class _CartScreenState extends State<CartScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(loc.translate('shopping_cart')),
-        backgroundColor: Colors.purple.shade400,
+        backgroundColor: const Color.fromARGB(255, 180, 188, 50),
+
       ),
       body: items.isEmpty
           ? Center(
@@ -115,7 +116,8 @@ class _CartScreenState extends State<CartScreen> {
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.purple.shade400,
+                                    color:const Color.fromARGB(255, 180, 188, 50),
+
                                   ),
                                 ),
                                 IconButton(
@@ -162,7 +164,7 @@ class _CartScreenState extends State<CartScreen> {
                             style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
-                              color: Colors.purple.shade400,
+                              color: const Color.fromARGB(255, 180, 188, 50),
                             ),
                           ),
                         ],
@@ -181,7 +183,7 @@ class _CartScreenState extends State<CartScreen> {
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.purple.shade400,
+                            backgroundColor: const Color.fromARGB(255, 180, 188, 50),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12),
                             ),

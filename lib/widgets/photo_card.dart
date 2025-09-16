@@ -76,7 +76,7 @@ class PhotoCard extends StatelessWidget {
                             style: TextStyle(
                               fontSize: 10,
                               fontWeight: FontWeight.bold,
-                              color: Colors.purple.shade600,
+                              color: const Color.fromARGB(255, 180, 188, 71),
                             ),
                           ),
                         ),
@@ -121,14 +121,14 @@ class PhotoCard extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
-                          color: Colors.purple.shade400,
+                          color: const Color.fromARGB(255, 180, 188, 71),
                         ),
                       ),
                       Container(
                         height: 32,
                         width: 32,
                         decoration: BoxDecoration(
-                          color: Colors.purple.shade400,
+                          color: const Color.fromARGB(255, 180, 188, 71),
                           borderRadius: BorderRadius.circular(8),
                         ),
                         child: IconButton(

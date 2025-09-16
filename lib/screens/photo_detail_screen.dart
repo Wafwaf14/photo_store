@@ -19,7 +19,7 @@ class PhotoDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(photo.title),
-        backgroundColor: Colors.purple.shade400,
+        backgroundColor: const Color.fromARGB(255, 180, 188, 71),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -61,7 +61,7 @@ class PhotoDetailScreen extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
-                          color: Colors.purple.shade400,
+                          color:  const Color.fromARGB(255, 180, 188, 71),
                         ),
                       ),
                     ],
@@ -87,7 +87,7 @@ class PhotoDetailScreen extends StatelessWidget {
                   // Category
                   Chip(
                     label: Text(loc.translate(photo.category.toLowerCase())),
-                    backgroundColor: Colors.purple.shade100,
+                    backgroundColor: const Color.fromARGB(255, 195, 201, 117),
                   ),
                   SizedBox(height: 24),
                   
@@ -142,7 +142,8 @@ class PhotoDetailScreen extends StatelessWidget {
                         ),
                       ),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.purple.shade400,
+                        backgroundColor:const Color.fromARGB(255, 180, 188, 50),
+
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
@@ -163,7 +164,8 @@ class PhotoDetailScreen extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: 4),
       child: Row(
         children: [
-          Icon(icon, size: 20, color: Colors.purple.shade400),
+          Icon(icon, size: 20, color:const Color.fromARGB(255, 180, 188, 50),
+),
           SizedBox(width: 8),
           Text(
             text,

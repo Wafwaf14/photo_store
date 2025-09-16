@@ -96,12 +96,12 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(loc.translate('photo_store')),
-        backgroundColor: Colors.purple.shade400,
+        backgroundColor: const Color.fromARGB(255, 180, 188, 71),
         actions: [
           // Language Switcher
           DropdownButton<String>(
             value: languageProvider.currentLocale.languageCode,
-            dropdownColor: Colors.purple.shade400,
+            dropdownColor: const Color.fromARGB(255, 180, 188, 71),
             icon: Icon(Icons.language, color: Colors.white),
             underline: Container(),
             items: [
@@ -197,7 +197,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         selectedCategory = category;
                       });
                     },
-                    selectedColor: Colors.purple.shade200,
+                    selectedColor: const Color.fromARGB(255, 200, 206, 126),
                   ),
                 );
               }).toList(),
